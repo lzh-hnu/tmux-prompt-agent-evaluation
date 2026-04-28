@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tmux for prompt_agent: Repair and Replay Evaluation</title>
+    <meta name="description" content="A discussion-oriented benchmark for prompt-to-terminal mediation.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <img class="hero-image" src="./assets/hero.png" width="700" height="500" alt="Research illustration for tmux for prompt_agent: Repair and Replay Evaluation">
+
+    <header class="site-header">
+      <p class="kicker">tmux adaptation research</p>
+      <h1>tmux for prompt_agent: Repair and Replay Evaluation</h1>
+      <p class="subtitle">A discussion-oriented benchmark for prompt-to-terminal mediation.</p>
+      <div class="meta-grid" aria-label="Project metadata">
+        <div class="meta-item"><span class="meta-label">Agent</span><span class="meta-value">prompt_agent</span></div>
+        <div class="meta-item"><span class="meta-label">Track</span><span class="meta-value">Evaluation Study</span></div>
+        <div class="meta-item"><span class="meta-label">Artifact</span><span class="meta-value">Static GitHub Pages discussion</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Abstract</h2>
+        <div>
+          <p>Evaluation should connect prompt updates to concrete terminal evidence, making repair behavior inspectable at pane, command, and artifact levels.</p>
+          <p>This site frames the project as an academic discussion artifact: it states the adaptation problem, proposes a design stance, and lists evaluation lenses that can be expanded into experiments.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research Question</h2>
+        <div class="callout">
+          <p>Which traces show that prompt_agent repaired terminal work through evidence rather than repeated prompting alone?</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Adaptation Notes</h2>
+        <div>
+          <ul>
+            <li>Fault injection introduces missing files, failing commands, and stale panes.</li>
+            <li>Replay analysis links prompt changes to observed shell state.</li>
+            <li>Scoring rewards verifiable repair paths over final-state luck.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Evaluation Lens</h2>
+        <div>
+          <ul>
+            <li>Evidence-backed repair rate</li>
+            <li>Replay interpretability</li>
+            <li>Prompt drift during long sessions</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Open Discussion</h2>
+        <div>
+          <p>The central methodological risk is mistaking terminal completion for agent understanding. The project therefore treats tmux as both infrastructure and evidence: pane state, focus movement, command output, and recovery behavior all become part of the argument.</p>
+          <p>Future work can connect this static discussion to executable harnesses, trace viewers, and standardized task suites for cross-agent comparison.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Generated as a public research discussion site for prompt_agent and tmux adaptation.</p>
+    </footer>
+  </body>
+</html>
